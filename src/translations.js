@@ -82,9 +82,9 @@ export const translations = {
 
     // Footer
     footer: {
-      thankYou: "شكرًا لزيارتك بورتفوليو هنادي",
+      thankYou: "شكرًا لزيارتك بورتفوليو حنان عوض",
       subtitle: "مصممة ومطورة واجهات متخصصة في UX/UI و Frontend Development",
-      copyright: "© {year} — مبني بـ React & Tailwind CSS — تصميم وإبداع هنادي",
+      copyright: "© {year} — مبني بـ React & Tailwind CSS — تصميم وإبداع حنان عوض",
     },
 
     // Sample Projects Data
@@ -191,9 +191,7 @@ export const translations = {
       behanceDesc: "Design & Interface Projects (UX/UI)", // توضيح أن Behance لمشاريع الـ UX/UI
       githubDesc: "Code & Software Projects (Frontend)", // توضيح أن GitHub لمشاريع الـ Frontend
       linkedinDesc: "Professional Profile & Experience",
-      // rememberText: "Remember",
-      // rememberNote:
-      // "Replace these links with your real account links on different platforms.",
+      
     },
 
     // Footer
