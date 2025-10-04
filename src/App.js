@@ -602,7 +602,7 @@ export default function App() {
             {t.contact.title}
           </motion.h3>
 
-          <div className="grid md:grid-cols-2 gap-8 sm:w-64 ">
+          <div className="grid md:grid-cols-2 gap-8 w-fit h-fit ">
             {/* قسم الواتساب */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
