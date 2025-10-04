@@ -96,7 +96,7 @@ export default function App() {
   };
 
   // إعدادات الواتساب
-  const whatsappNumber = "011101460060";
+  const whatsappNumber = "01110146006";
   const whatsappMessage =
     language === "ar"
       ? "مرحبًا! أرسلت لك رسالة من خلال البورتفوليو، أود معرفة المزيد عن خدماتك."
@@ -261,37 +261,19 @@ export default function App() {
               className={textDirection === "rtl" ? "text-right" : "text-left"}
             >
               <h2
-                className={`text-2xl  md:text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent ${
+                className={`text-3xl sm:text-center md:text-4xl font-bold mb-6 bg-gradient-to-r from-purple-600 to-purple-400 bg-clip-text text-transparent ${
                   textDirection === "rtl" ? "rtl" : "ltr"
                 }`}
               >
                 {t.hero.title}
               </h2>
               <p
-                className={`text-xl text-gray-600 dark:text-gray-300 mb-8 leading-relaxed ${
+                className={`text-xl sm:text-center text-gray-600 dark:text-gray-300 mb-8 leading-relaxed ${
                   textDirection === "rtl" ? "rtl" : "ltr"
                 }`}
               >
                 {t.hero.description}
               </p>
-              <div
-                className={`flex gap-4 ${
-                  textDirection === "rtl" ? "justify-end" : "justify-start"
-                }`}
-              >
-                <a
-                  href="#projects"
-                  className="px-6 py-3 rounded-xl border border-purple-300 dark:border-purple-600 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors"
-                >
-                  {t.hero.exploreButton}
-                </a>
-                <a
-                  href="#contact"
-                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-purple-500 text-white hover:from-purple-700 hover:to-purple-600 transition-all shadow-lg"
-                >
-                  {t.hero.contactButton}
-                </a>
-              </div>
             </div>
 
             <div className="relative">
@@ -321,6 +303,25 @@ export default function App() {
                   </p>
                 </div>
               </motion.div>
+
+              <div
+                className={`flex gap-4 mt-8  ${
+                  textDirection === "rtl" ? "justify-end" : "justify-start"
+                }`}
+              >
+                <a
+                  href="#projects"
+                  className="px-6 py-3 rounded-xl border border-purple-300 dark:border-purple-600 hover:bg-purple-50 dark:hover:bg-purple-900/30 transition-colors"
+                >
+                  {t.hero.exploreButton}
+                </a>
+                <a
+                  href="#contact"
+                  className="px-6 py-3 rounded-xl bg-gradient-to-r from-purple-600 to-purple-500 text-white hover:from-purple-700 hover:to-purple-600 transition-all shadow-lg"
+                >
+                  {t.hero.contactButton}
+                </a>
+              </div>
             </div>
           </motion.div>
         </section>
@@ -601,7 +602,7 @@ export default function App() {
             {t.contact.title}
           </motion.h3>
 
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-2 gap-8 sm:w-64 ">
             {/* قسم الواتساب */}
             <motion.div
               initial={{ opacity: 0, x: -30 }}
