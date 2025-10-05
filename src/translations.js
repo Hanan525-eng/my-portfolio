@@ -20,10 +20,9 @@ export const translations = {
     hero: {
       title: "بورتفوليو مصممة تجربة واجهة المستحدم",
       subtitle: "UX · UI ",
-      description: `مرحبًا بك في حافظتي الإبداعية! هنا تجد مشاريعي في مجال تصميم
-      تجربة المستخدم والواجهات، بالإضافة إلى التطبيقات التي طورتها
-      باستخدام التقنيات الحديثة. يمكنك أيضًا رفع وتحميل السيرة الذاتية
-      والتواصل معي مباشرة عبر الواتساب.`,
+      description:`مرحبًا بك في حافظتي الإبداعية!
+هنا ستجد مشاريعي في تصميم تجربة المستخدم وواجهات الاستخدام، بالإضافة إلى التطبيقات التي قمت         بتطويرها   باستخدام أحدث التقنيات.
+يمكنك أيضًا تحميل سيرتي الذاتية والتواصل معي مباشرة عبر واتساب.`,
       exploreButton: "استكشف مشاريعي",
       contactButton: "تواصل معي الآن",
       interactiveDemo: `حنان عوض`,
@@ -56,9 +55,9 @@ export const translations = {
       uploadSuccess: "تم رفع الملف بنجاح!",
       fileName: "الملف",
       fileSize: "الحجم",
-      note: "ملاحظة",
-      noteText:
-        "هذه النسخة تعمل محليًا على المتصفح فقط. للحفظ الدائم، ستحتاج لإعداد خادم أو استخدام خدمات الاستضافة.",
+      // note: "ملاحظة",
+      // noteText:
+      //   "هذه النسخة تعمل محليًا على المتصفح فقط. للحفظ الدائم، ستحتاج لإعداد خادم أو استخدام خدمات الاستضافة.",
     },
 
     // Contact Section
@@ -84,7 +83,8 @@ export const translations = {
     footer: {
       thankYou: "شكرًا لزيارتك بورتفوليو حنان عوض",
       subtitle: "مصممة ومطورة واجهات متخصصة في UX/UI و Frontend Development",
-      copyright: "© {year} — مبني بـ React & Tailwind CSS — تصميم وإبداع حنان عوض",
+      copyright:
+        "© {year} — مبني بـ React & Tailwind CSS — تصميم وإبداع حنان عوض",
     },
 
     // Sample Projects Data
@@ -191,7 +191,6 @@ export const translations = {
       behanceDesc: "Design & Interface Projects (UX/UI)", // توضيح أن Behance لمشاريع الـ UX/UI
       githubDesc: "Code & Software Projects (Frontend)", // توضيح أن GitHub لمشاريع الـ Frontend
       linkedinDesc: "Professional Profile & Experience",
-      
     },
 
     // Footer
