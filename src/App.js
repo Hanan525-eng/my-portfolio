@@ -1692,8 +1692,8 @@ export default function App() {
         <footer className="mt-24 text-center text-sm text-gray-500 dark:text-gray-400 border-t border-gray-200 dark:border-gray-800 pt-6">
           <p>
             {language === "ar"
-              ? "© 2024 بورتفوليو حنان. جميع الحقوق محفوظة."
-              : "© 2024 Hanan Portfolio. All rights reserved."}
+              ? "© 2025 بورتفوليو حنان. جميع الحقوق محفوظة."
+              : "© 2025 Hanan Portfolio. All rights reserved."}
           </p>
           <p className="mt-1">
             {language === "ar"
