@@ -935,7 +935,7 @@ export default function App() {
   };
 
   // إعدادات الواتساب
-  const whatsappNumber = "01110146006";
+  const whatsappNumber = "+201110146006";
   const whatsappMessage =
     language === "ar"
       ? "مرحبًا! أرسلت لك رسالة من خلال البورتفوليو، أود معرفة المزيد عن خدماتك."
