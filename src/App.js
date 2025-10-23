@@ -866,26 +866,33 @@ const getSampleProjects = () => [
     link: "https://www.figma.com/design/41fqwV41uIL80F2J7icNxQ/dashboard-resturant?node-id=249-948&t=c8xuM68TSGVJJAUL-1",
     code: null,
   },
+  {
+    id: 5,
+    type: "UX UI ",
+    tags: ["Figma", "Deliver APP"],
+    link: "https://www.figma.com/design/4q5Mpi0Rk4xKHWZGCuFERV/Delivery-App?node-id=0-1&t=5wzrEYLsiTpFbLaP-1",
+    code: null,
+  },
 
   // 🚨 مشاريع الواجهات الأمامية (Frontend)
   {
-    id: 7,
+    id: 3,
     type: "Frontend",
     tags: ["Next.js", "Tailwind", "Responsive"],
     link: "https://page-resturant.vercel.app/",
     code: "https://github.com/Hanan525-eng/page-resturant",
   },
   {
-    id: 5,
+    id: 6,
     type: "Frontend",
     tags: ["React", "Animation", "Responsive"],
     link: "https://hanan525-eng.github.io/Dashboard/",
     code: "https://github.com/Hanan525-eng/Dashboard",
   },
   {
-    id: 6,
+    id: 7,
     type: "Frontend",
-    tags: ["React", "Local Storage", "CRUD"],
+    tags: ["HTML " , " CSS" , "JV "],
     link: "https://el-top-project.vercel.app/",
     code: "https://github.com/Hanan525-eng/el-top-project",
   },

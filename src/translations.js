@@ -1,4 +1,7 @@
 // // ملف الترجمات للبورتفوليو
+
+import { desc } from "framer-motion/client";
+
 // ملف الترجمات للبورتفوليو
 export const translations = {
   ar: {
@@ -20,7 +23,7 @@ export const translations = {
     hero: {
       title: "بورتفوليو مصممة تجربة واجهة المستحدم",
       subtitle: "UX · UI ",
-      description:`مرحبًا بك في حافظتي الإبداعية!
+      description: `مرحبًا بك في حافظتي الإبداعية!
 هنا ستجد مشاريعي في تصميم تجربة المستخدم وواجهات الاستخدام، بالإضافة إلى التطبيقات التي قمت         بتطويرها   باستخدام أحدث التقنيات.
 يمكنك أيضًا تحميل سيرتي الذاتية والتواصل معي مباشرة عبر واتساب.`,
       exploreButton: "استكشف مشاريعي",
@@ -106,10 +109,14 @@ export const translations = {
         desc: "تصميم واجهة وتجربة مستخدم للوحة تحكم إدارة المطعم، مع أدوات لإدارة الطلبات والمخزون ومتابعة أداء المطعم. المشروع قيد التنفيذ.",
       },
       project5: {
+        title: "تطبيق توصيل ",
+        desc: "تطبيق لتوصيل جميع أنواع الطلبات بسهولة وسرعة مع إمكانية تتبع الطلب لحظة بلحظة.",
+      },
+      project6: {
         title: "Dashboard: واجهة تحليل وإدارة مهام المطورين",
         desc: "تصميم وتنفيذ لوحة تحكم (Dashboard) متكاملة لنظام EITOP الإداري، تهدف إلى تتبع وإدارة المشاريع، الإحصائيات، والأهداف المالية للمستخدمين.",
       },
-      project6: {
+      project7: {
         title: "إلتوب: بوابة الابتكار والتطوير",
         desc: "تصميم وتنفيذ واجهة مستخدم لموقع وكالة رقمية شاملة (Eltop World) تعرض خدماتها الفنية والتقنية.",
       },
@@ -213,7 +220,7 @@ export const translations = {
         desc: "UX/UI design for a real estate marketplace, emphasizing property viewing and a seamless user browsing experience.", // ترجمة أكثر تفصيلاً ودقة
       },
       project3: {
-        title: "Hafsa Restoran: Delivery App UI/UX",
+        title: "Hafsa Restoran:",
         desc: "Designing and developing a modern and engaging user interface for Hafsa Restoran's fast food delivery services website.", // ترجمة أكثر تفصيلاً ودقة
       },
       project4: {
@@ -221,10 +228,15 @@ export const translations = {
         desc: "UX/UI design for a restaurant management dashboard, including tools for order management, inventory, and performance tracking.", // ترجمة أكثر تفصيلاً ودقة
       },
       project5: {
+        title: "Delivery APP – UX/UI Design",
+        desc: "An app for fast and easy delivery of all types of orders with real-time tracking.", // ترجمة أكثر تفصيلاً ودقة
+      },
+      project6: {
         title: "Dashboard: Developer Task Management & Analytics",
         desc: "Design and implementation of an integrated Dashboard for EITOP, aiming to track and manage projects, statistics, and financial goals.", // ترجمة أكثر تفصيلاً ودقة
       },
-      project6: {
+
+      project7: {
         title: "Eltop: The Gateway to Innovation and Development",
         desc: "Design and implementation of a user interface for Eltop World, a comprehensive digital agency showcasing its technical services.", // ترجمة أكثر تفصيلاً ودقة
       },
