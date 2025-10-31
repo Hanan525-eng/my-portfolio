@@ -2236,7 +2236,7 @@ export default function App() {
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}
               // 🚨 توحيد ارتفاع الكروت في الموبايل 🚨
-              className="rounded-3xl border border-gray-200 dark:border-gray-700 p-8 bg-gradient-to-br from-green-50 to-white dark:from-green-900/20 dark:to-gray-900 shadow-xl min-h-[420px] sm:min-h-0"
+              className="rounded-3xl border border-gray-200 dark:border-gray-700 p-4 bg-gradient-to-br from-green-50 to-white dark:from-green-900/20 dark:to-gray-900 shadow-xl min-h-[420px] sm:min-h-0"
             >
               <div className="text-center mb-6">
                 {/* أيقونة الواتساب */}
