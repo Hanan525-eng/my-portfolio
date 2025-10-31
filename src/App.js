@@ -1092,7 +1092,7 @@ export default function App() {
           {/* 🚨 زر Hamburger Menu (يظهر فقط في الموبايل) 🚨 */}
           <button
             onClick={toggleMenu}
-            className=" md:hidden rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
+            className="p-3 md:hidden rounded-lg border border-gray-300 dark:border-gray-600 hover:bg-gray-100 dark:hover:bg-gray-800 transition-colors"
             aria-label={isMenuOpen ? "Close menu" : "Open menu"}
           >
             {isMenuOpen ? (
@@ -1104,7 +1104,7 @@ export default function App() {
           {/* زر التواصل للكمبيوتر */}
           <a
             href="#contact"
-            className="hidden md:block px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-purple-500 text-white hover:from-purple-700 hover:to-purple-600 transition-all shadow-lg"
+            className=" hidden md:block px-4 py-2 rounded-lg bg-gradient-to-r from-purple-600 to-purple-500 text-white hover:from-purple-700 hover:to-purple-600 transition-all shadow-lg"
           >
             {t.header.contactButton}
           </a>
@@ -1122,7 +1122,7 @@ export default function App() {
             animate={{ opacity: 1, x: "0%" }}
             exit={{ opacity: 0, x: textDirection === "rtl" ? "100%" : "-100%" }}
             transition={{ duration: 0.3 }}
-            className={`fixed inset-0 z-40 md:hidden h-full w-auto bg-white dark:bg-gray-900/95 backdrop-blur-sm p-2 pt-24 space-y-4 shadow-2xl overflow-y-auto ${textDirection === "rtl" ? "text-right" : "text-left"
+            className={` fixed inset-0 z-40 md:hidden h-full w-full bg-white dark:bg-gray-900/95 backdrop-blur-sm p-6 pt-24 space-y-4 shadow-2xl overflow-y-auto ${textDirection === "rtl" ? "text-right" : "text-left"
               }`}
           >
             {mobileNavLinks(t, CV_FILE_PATH).map((link) => (
