@@ -1,7 +1,3 @@
-// // ملف الترجمات للبورتفوليو
-
-import { desc } from "framer-motion/client";
-
 // ملف الترجمات للبورتفوليو
 export const translations = {
   ar: {
@@ -29,7 +25,7 @@ export const translations = {
       exploreButton: "استكشف مشاريعي",
       contactButton: "تواصل معي الآن",
       interactiveDemo: `حنان عوض`,
-      demoDescription: `مثال على تصميم واجهة تفاعلية حديثة وسلسة —  تحتوى على بعض المشاريع التي قد عملت ع تنفيذها `,
+     
     },
 
     // Projects Section
@@ -49,9 +45,8 @@ export const translations = {
     // CV Section
     cv: {
       title: "السيرة الذاتية",
-      uploadTitle: "رفع وتحميل السيرة الذاتية",
-      uploadDescription:
-        "يمكنك رفع ملف السيرة الذاتية هنا لتحميله لاحقًا. يدعم النظام ملفات PDF و DOCX",
+      uploadTitle: " تحميل السيرة الذاتية",
+      uploadDescription:"يمكنك تحميل السيرة الذاتية من هنا",
       uploadButton: "📁 رفع ملف السيرة الذاتية",
       downloadButton: "⬇️ تحميل السيرة الذاتية",
       deleteButton: "🗑️ حذف الملف",
@@ -105,12 +100,12 @@ export const translations = {
         desc: "تصميم وتطوير واجهة مستخدم عصرية ومحفزة لموقع مطعم Hafsa Restoran متخصص في خدمات توصيل الطعام السريعة.",
       },
       project4: {
-        title: "Restaurant Admin Dashboard – UX/UI Design",
-        desc: "تصميم واجهة وتجربة مستخدم للوحة تحكم إدارة المطعم، مع أدوات لإدارة الطلبات والمخزون ومتابعة أداء المطعم. المشروع قيد التنفيذ.",
+        title: "داش بورد لادارة مطعم ",
+        desc: "تصميم وتنفيذ لوحة تحكم (Dashboard) متكاملة للوحة تحكم لادارة المطعم، تهدف إلى تتبع وإدارة الطلبات، المخزون، ومتابعة أداء المطعم.",
       },
       project5: {
-        title: "تطبيق توصيل ",
-        desc: "تطبيق لتوصيل جميع أنواع الطلبات بسهولة وسرعة مع إمكانية تتبع الطلب لحظة بلحظة.",
+        title: "تطبيق توظيف  ",
+        desc: " تطبيق يساعد الباحثين عن وظائف لايجاد الفرص المناسبة و ايضا يساعد اصحاب الشركات في الحصول علي موظفين مناسبين في جميع المجالات  , مازال قيد التنفيذ" ,
       },
       project6: {
         title: "Dashboard: واجهة تحليل وإدارة مهام المطورين",
@@ -148,8 +143,7 @@ export const translations = {
       exploreButton: "Explore My Work",
       contactButton: "Contact Me Now",
       interactiveDemo: "Hanan Awad",
-      demoDescription: `An example of a modern, smooth, and interactive interface design —
-      ready to showcase your creative projects.`, // تم تحسين الصياغة
+      // تم تحسين الصياغة
     },
 
     // Projects Section
@@ -169,9 +163,9 @@ export const translations = {
     // CV Section
     cv: {
       title: "CV / Resume", // إضافة Resume كخيار
-      uploadTitle: "Upload & Download CV",
+      uploadTitle: " Download CV",
       uploadDescription:
-        "You can upload your CV file here to download later. The system supports PDF and DOCX files.", // تم إضافة نقطة نهاية
+        "You can to download CV. The system supports PDF and DOCX files.", // تم إضافة نقطة نهاية
       uploadButton: "📁 Upload CV File",
       downloadButton: "⬇️ Download CV",
       deleteButton: "🗑️ Delete File",
@@ -228,8 +222,8 @@ export const translations = {
         desc: "UX/UI design for a restaurant management dashboard, including tools for order management, inventory, and performance tracking.", // ترجمة أكثر تفصيلاً ودقة
       },
       project5: {
-        title: "Delivery APP – UX/UI Design",
-        desc: "An app for fast and easy delivery of all types of orders with real-time tracking.", // ترجمة أكثر تفصيلاً ودقة
+        title: "Employment APP – UX/UI Design",
+        desc: "An app helps the job seekers to find the suitable jobs and also helps the employers to get the suitable workers in all fields, it is still under development", // ترجمة أكثر تفصيلاً ودقة
       },
       project6: {
         title: "Dashboard: Developer Task Management & Analytics",
